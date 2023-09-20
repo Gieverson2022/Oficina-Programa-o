@@ -1,0 +1,31 @@
+
+
+.cabeçalho{ background-color: yellow;
+padding: 0px 0px;
+margin: 0px 0px;
+
+display: flex;}
+
+.titulo{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+width: 20px 0;}
+
+.logo{float: left; 
+    text-align: center;
+}
+
+.corpo{ padding: 80px 0;
+text-align: center;
+background-color: orange;
+}
+
+.paragrafo-corpo{ text-align: center;
+    width: 80%;
+}
+
+.imagem-pagina{width: 20%;
+    display: flex;
+    float: left;
+}
