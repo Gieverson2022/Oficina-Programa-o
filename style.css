@@ -1,27 +1,99 @@
-.titulo{
-    justify-content: center;
+*{margin: 0 ;
+    padding: 0;}
+.cabeçalho{
     display: flex;
-    text-align: center;
-width: 20px 0;}
-
-.logo{float: left; 
-    text-align: center;
+    width: 20px 0;
+    justify-content:space-around ;
+    align-items: center;
 }
 
-.corpo {background-image:linear-gradient(orange, yellow);
- display: flex; 
- justify-content: center;
+
+
+.corpo { padding: 90px;
+    background-image:linear-gradient(orange, yellow);
+    display: flex; 
+    justify-content: space-around;
+   text-align: center;
 align-items: center;
-text-align: center;
+    
+  }
+.imagem-pagina{ display: flex; 
+    
+   text-align: center;
+align-items: center;}
 
- }
 
-
-.paragrafo-corpo{ text-align: center;
-    width: 80%;
-}
-
-.imagem-pagina{width: 20%;
-   
+.imagem-pagina{width: 30%;   
     
 }
+
+.Responsaveis{background-image:linear-gradient(rgb(207, 103, 19), rgb(216, 164, 22));
+     
+    border-width: 5px; 
+  border-style: solid; 
+  border-color: #100e0e;
+display:flex;
+justify-content: center; 
+}
+.NUCLEO-COMPLETO{ height: 100%;
+    display: flex;
+        align-content: center;   
+        flex-direction: column;
+        justify-content:space-between;
+        flex-wrap: nowrap;
+       width: 27%;
+}
+
+.text-dyana{ height: 100% !important;
+    display: flex;
+flex-direction: column;
+align-content: center;
+justify-content:center !important;
+}
+
+.embaixadora{ align-items: center;
+text-align: center;}
+
+.dyana-braga{text-align: center;
+align-items: center;}
+
+
+
+.imagem-curso{
+    border-width: 5px; 
+  border-style: solid; 
+  border-color: #100e0e;
+   width: 48%;
+    height:200%; }
+
+.dyana{
+    display: flex;
+    text-align: center;
+    width: 25%; 
+    border-width: 5px; 
+    border-style: solid; 
+    border-color: #100e0e;}
+
+.nucleo{width: 100%; height: 50%; 
+       border-width: 5px; 
+    border-style: solid; 
+    border-color: #100e0e;
+justify-content: flex-end;}
+
+
+.estudante-titulo{ text-align: center;}
+
+.estudante-imagem{ width: 50%;
+    align-items: center;
+    text-align: center;}
+    
+    .foto-todos{display: grid;
+    grid-template-columns: 40% 40% 40% 40% 40%;}
+    
+    .imagem-icone { width: 5%;}
+    
+    .rodapé{ background-color: black;
+    text-align: center;}
+    
+    .imagem-rodapé{height: 60px;
+    padding: 12px 0;}
